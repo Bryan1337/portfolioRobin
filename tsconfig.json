@@ -1,0 +1,62 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src",
+		"outDir": "./build",
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"target": "esnext",
+		"module": "esnext",
+		"jsx": "react",
+		"allowJs": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"lib": [
+			"dom",
+			"webworker",
+			"es5",
+			"scripthost"
+		],
+		"checkJs": true,
+		"allowSyntheticDefaultImports": true,
+		"moduleResolution": "node",
+		"noImplicitAny": true,
+		"removeComments": true,
+		"paths": {
+			"Components/*": [
+				"components/*"
+			],
+
+			"Scripts/*": [
+				"scripts/*"
+			],
+			"Hooks/*": [
+				"hooks/*"
+			],
+			"Reducers/*": [
+				"__reducers/*"
+			],
+			"Actions/*": [
+				"__actions/*"
+			],
+			"Types/*": [
+				"__types/*"
+			],
+			"Assets/*": [
+				"assets/*"
+			],
+		},
+	},
+	"typescript": {
+		"preferences": {
+			"importModuleSpecifier": "non-relative"
+		}
+	},
+	"include": [
+		"./src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"build"
+	],
+}
