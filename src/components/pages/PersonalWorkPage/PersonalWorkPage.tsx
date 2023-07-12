@@ -16,6 +16,18 @@ const PersonalWorkPage = () => {
 		{
 			title: 'Reel werkzaamheden Eddie',
 			link: `https://www.youtube-nocookie.com/embed/1cjnK8h9xGw`,
+		},
+		{
+			title: 'Meike Cine full frame meets my Sony FX3',
+			link: `https://www.youtube-nocookie.com/embed/WGL4Agx5TCI`,
+		},
+		{
+			title: 'My Sony FX3 rigged out',
+			link: `https://www.youtube-nocookie.com/embed/EDj2NuZHDio`,
+		},
+		{
+			title: 'LOUNGEFEST SHORT',
+			link: `https://www.youtube-nocookie.com/embed/wiU0YT9KEWY`,
 		}
 	]
 
